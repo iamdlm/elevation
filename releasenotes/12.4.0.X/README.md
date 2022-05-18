@@ -266,3 +266,25 @@ Lista de dependências PRIMAVERA, para facilitar o uso do feed único:
 - Alterar a tag dos módulos de FW, na ClientApp, de "release_12.4.5" para "**release_12.4.7**"
 - Promover os seguintes packages para o feed de produto:
   - [**Elevation**](./packages/packages_fw_12_4_7.config)
+
+## HOTFIX 12.4.8 _(13 Mai 2022)_
+ 
+### Resumo dos problemas resolvidos
+
+- AsNoTracking() erradamente incluído, com QueryCaching disabled _([192538](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=192538&_a=edit))_
+
+### Procedimentos adicionais necessários 
+
+- Atualizar o SDK: "\\storage\BUILDS\TFS\framework\release-12.4\sdk\\**12.4.8.0032**
+- Promover os seguintes packages para o feed de produto:
+  - [**Elevation**](./packages/packages_fw_12_4_8.config)
+
+## HOTFIX 12.4.9 _(18 Mai 2022)_
+ 
+### Resumo dos problemas resolvidos
+
+- Se um entidade implementar um interface IMoney e não existir um campo do tipo money nos atributos, não sao geradas as colunas 'BaseCurrencyId' e 'ReportingCurrencyId' _([192982](https://tfs.primaverabss.com/tfs/P.TEC.Elevation/Elevation3/_workitems?id=192982&_a=edit))_
+
+### Procedimentos adicionais necessários
+
+- Atualizar o SDK: "\\storage\BUILDS\TFS\framework\release-12.4\sdk\\**12.4.9.0034**
